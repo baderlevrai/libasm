@@ -1,5 +1,5 @@
 NAME = libasm.a
-SRC = src/ft_strlen.asm
+SRC = src/ft_strlen.asm src/ft_strcpy.asm
 OBJ = $(SRC:.asm=.o)
 
 all: $(NAME)
